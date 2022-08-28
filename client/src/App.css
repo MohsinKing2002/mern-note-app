@@ -1,0 +1,277 @@
+
+/***************************************** google font ****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/***************************************** css reset and body ****************************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #dbecff !important;
+}
+
+.center {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/***************************************** navigation bar ****************************************/
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-around !important;
+  flex-direction: row !important;
+}
+
+.title {
+  text-align: center;
+  color: indigo;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+
+/***************************************** card & form component ****************************************/
+
+.card {
+  padding: 12px;
+  width: 30%;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+.card form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25vw;
+}
+
+input,
+textarea {
+  width: 90%;
+  margin: 15px 0 !important;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightblue;
+}
+
+textarea {
+  resize: none !important;
+  height: 15vh;
+}
+
+textarea::-webkit-scrollbar,
+.users::-webkit-scrollbar,
+.home_notes::-webkit-scrollbar
+{
+  width: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb,
+.users::-webkit-scrollbar-thumb, 
+.home_notes::-webkit-scrollbar-thumb
+{
+  background-color: lightblue;
+  border-radius: 8px;
+}
+
+
+/***************************************** profile component ****************************************/
+
+.profile {
+  flex-direction: row !important;
+  justify-content: space-around;
+  width: 70%;
+  padding: 20px;
+}
+
+.profile_user:hover {
+  background-color: white;
+}
+
+.user_icon {
+  font-size: 2rem;
+  color: midnightblue;
+  margin-right: 1rem;
+}
+
+.user_controll,
+.user_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  color: azure !important;
+  width: 35%;
+  margin: 16.5px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: azure;
+}
+
+.link:hover {
+  color: azure;
+}
+
+.para {
+  color: midnightblue;
+  margin: 12px 0 !important;
+}
+
+
+
+/***************************************** home componets ****************************************/
+.home_page{
+  width: 95%;
+  margin-top: 5px;
+  min-height: 90vh;
+}
+.home{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.home_users{
+    padding: 10px;
+}
+
+.home_notes{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 84vh;
+  overflow-y: auto;
+}
+
+.note_card{
+  width: 55%;
+  margin-bottom: 25px;
+}
+
+.card-text{
+  padding: 12px 0;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 8px;
+  transition: all 0.4s ease-in-out;
+}
+
+.user:hover {
+  background-color: #add8e652;
+}
+
+.user img {
+  height: 5.4vh;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.user h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: indigo;
+  letter-spacing: 2px;
+}
+
+
+/***************************************** search component ****************************************/
+/***************************************** search component ****************************************/
+/***************************************** My notes component ****************************************/
+.mynote{
+  width: 100%;
+}
+
+
+
+/***************************************** making responsive ****************************************/
+@media screen and (min-width: 1100px) {
+  .btn {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-brand{
+    display: none;
+  }
+  .nav_icon{
+    height: 25px;
+  }
+  .nav-link {
+    padding: 10px 20px !important;
+  }
+
+  .navbar-collapse {
+    margin-left: auto;
+  }
+
+  .user h3 {
+    font-size: 18px;
+  }
+
+  .user_icon {
+    font-size: 28px;
+  }
+
+  .btn {
+    width: 70%;
+    margin: 10px 0;
+  }
+
+  .home{
+    flex-direction: column;
+  }
+  .home_users{
+      border-bottom: 1px solid lightblue;
+      margin-bottom: 10px;
+  }
+  .home_notes{
+    width: auto;
+  }
+
+  .profile{
+    flex-direction: column !important;
+    width: 90% !important;
+  }
+
+  .user img {
+    margin-right: 15px;
+    height: 5vh;
+  }
+
+  .card {
+    width: 93%;
+    padding: 0;
+  }
+
+  .card form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    margin: 8px 0 !important;
+  }
+}
