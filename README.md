@@ -1,0 +1,6 @@
+![login](https://github.com/MohsinKing2002/mern-note-app/assets/86507595/09d6f1c0-969e-4e9c-bead-20a186af0ab0)
+![note](https://github.com/MohsinKing2002/mern-note-app/assets/86507595/333ab383-c13a-48a8-941c-54ca7010b883)
+![new](https://github.com/MohsinKing2002/mern-note-app/assets/86507595/ddd99345-e362-49c3-a86b-17bcd3ede78b)
+![search](https://github.com/MohsinKing2002/mern-note-app/assets/86507595/c1670979-5cde-404d-8163-82115e3358fa)
+![contact](https://github.com/MohsinKing2002/mern-note-app/assets/86507595/fdbcd5ed-66c3-42e9-a65c-7e32804a832c)
+![profile](https://github.com/MohsinKing2002/mern-note-app/assets/86507595/f5189b42-b27e-4751-ab5a-e191cf098c12)
